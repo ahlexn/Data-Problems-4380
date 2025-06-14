@@ -1,0 +1,136 @@
+ 
+  950  cat Housing.csv | tr -s ",yes" ",1" | tr -s ",no" ",0"
+  951  cat Housing.csv | tr -s ",yes" ",1" 
+  952  cat Housing.csv 
+  953  cat Housing.csv | tr -s ",yes" ",1" 
+  954  cat Housing.csv | tr -d ",yes" ",1" 
+  955  cat Housing.csv | tr -ds ",yes" ",1" 
+  956  cat Housing.csv | tr -s ",yes" ",1" 
+  957  man tr
+  958  cat Housing.csv | tr -c ",yes" ",1" 
+  959  cat Housing.csv | tr -s ",yes" ",1" 
+  960  man tr
+  961  man cut
+  962  man sed
+  963  sed -i 's/yes/1/g' Housing.csv
+  964  cat Housing.csv | sed -i 's/yes/1/g' 
+  965  cat Housing.csv | sed 's/yes/1/g' 
+  966  sed -i 's/yes/1/g' Housing.csv
+  967  sed -i Housing.csv 's/yes/1/g' 
+  968  sed  's/yes/1/g' -i Housing.csv
+  969  sed  's/yes/1/g' -i Housing.csv | sed 's/no/1/g'
+  970  sed  's/yes/1/g' -i Housing.csv | sed 's/no/0/g'
+  971  sed  's/yes/1/g' -i Housing.csv | sed 's/no/0/g' | sed 's/furnished/1/g' | sed 's/unfurnished/0/g'
+  972  sed  's/yes/1/g' -i Housing.csv | sed 's/no/0/g' | sed 's/,furnished/,1/g' | sed 's/,unfurnished/,0/g'
+  973  sed  's/yes/1/g' -i Housing.csv | sed 's/no/0/g' | sed 's/,furnished/,1/g' | sed 's/,unfurnished/,0/g' | | sed 's/,semi-furnished/2/g'
+  974  sed  's/yes/1/g' -i Housing.csv | sed 's/no/0/g' | sed 's/,furnished/,1/g' | sed 's/,unfurnished/,0/g' |  sed 's/,semi-furnished/2/g'
+  975  sed  's/yes/1/g' -i Housing.csv | sed 's/no/0/g' | sed 's/,furnished/,1/g' | sed 's/,unfurnished/,0/g' |  sed 's/,semi-furnished/,2/g'
+  976  sed  's/yes/1/g' -i Housing.csv | sed 's/no/0/g' | sed 's/,furnished/,1/g' | sed 's/,unfurnished/,0/g' |  sed 's/,semi-furnished/,2/g'
+  977  ls
+  978  more diabetes_prediction_dataset.csv
+  979  man cut
+  980  man cut
+  981  cut -f 1,2,4,5,6 diabetes_prediction_dataset.csv
+  982  cut -f 1 diabetes_prediction_dataset.csv
+  983  man cut
+  984  cut -f 1 -d ',' diabetes_prediction_dataset.csv
+  985  cut -f 1,2,3,5,6 -d ',' diabetes_prediction_dataset.csv
+  986  more diabetes_prediction_dataset.csv
+  987  bc
+  988  cut -f 2,3 -d ',' diabetes_prediction_dataset.csv
+  989  cut -f 2,4 -d ',' diabetes_prediction_dataset.csv
+  990  ls
+  991  more Mall_Customers.csv
+  992  ls
+  993  more world\ all\ university\ rank\ and\ rank\ score.csv
+  994  cut -f 4,5,6,7 world\ all\ university\ rank\ and\ rank\ score.csv
+  995  cut -f 4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv
+  996  more world\ all\ university\ rank\ and\ rank\ score.csv
+  997  cut -f 4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv
+  998  more world\ all\ university\ rank\ and\ rank\ score.csv
+  999  cut -f 2,4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv
+ 1000  cut -f 2,4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | more
+ 1001  cut -f 4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | more
+ 1002  cut -f 3,4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | more
+ 1003  cut -f 4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | more
+ 1004  cut -f 4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s "," "+"
+ 1005  cut -f 4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s "," "+" | bc
+ 1006  cut -f 4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+;
+ 1007  cut -f 4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'
+ 1008  cut -f 4,5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+' | head
+ 1009  cat world\ all\ university\ rank\ and\ rank\ score.csv
+ 1010  grep 12.6–22 world\ all\ university\ rank\ and\ rank\ score.csv
+ 1011  grep 12.6–22 world\ all\ university\ rank\ and\ rank\ score.csv | more
+ 1012  grep 12.6–22 world\ all\ university\ rank\ and\ rank\ score.csv | more
+ 1013  grep -v  12.6–22 world\ all\ university\ rank\ and\ rank\ score.csv 
+ 1014  cut -f 5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+' | head
+ 1015  cut -f 5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+' 
+ 1016  cut -f 5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  | bc
+ 1017  cut -f 5,6,7 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  | bc
+ 1018  head world\ all\ university\ rank\ and\ rank\ score.csv
+ 1019  cut -f 5,6,7,8,9 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  | bc
+ 1020  cut -f 5,6,7,8,9 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  
+ 1021  cut -f 5,6,7,8,9 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  | more
+ 1022  cut -f 5,6,7,8,9 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  
+ 1023  cut -f 5,6,7,8,9 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  | bc
+ 1024  cut -f 5,6,7,8 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  
+ 1025  man bc
+ 1026  cut -f 5,6,7,8 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | head -`\n\n`
+ 1027  cut -f 5,6,7,8 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | head -1`\n`
+ 1028  cut -f 5,6,7,8 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | head -1
+ 1029  man tee
+ 1030  man tee
+ 1031  man sort
+ 1032  ls
+ 1033  more breast-cancer-wisconsin-data_data.csv
+ 1034  sort -n breast-cancer-wisconsin-data_data.csv
+ 1035  sort -f 3-n breast-cancer-wisconsin-data_data.csv
+ 1036  sort -k 3 -n breast-cancer-wisconsin-data_data.csv
+ 1037  sort -k 3 -n breast-cancer-wisconsin-data_data.csv | more
+ 1038  ls
+ 1039  more cancer\ patient\ data\ sets.csv
+ 1040  sort -k 3 -n cancer\ patient\ data\ sets.csv
+ 1041  sort -k 2 -n cancer\ patient\ data\ sets.csv
+ 1042  sort -k 4 -n cancer\ patient\ data\ sets.csv
+ 1043  man sort
+ 1044  man sort 
+ 1045  man sort 
+ 1046  sort -k 4 -n -t ','  cancer\ patient\ data\ sets.csv
+ 1047  sort -k 3 -n -t ','  cancer\ patient\ data\ sets.csv
+ 1048  ls
+ 1049  ls -ltr
+ 1050  man diabetes_prediction_dataset.csv
+ 1051  wc diabetes_prediction_dataset.csv
+ 1052  pwd
+ 1053  cd ../
+ 1054  ls
+ 1055  cd ../
+ 1056  ls
+ 1057  cd Lecture.5
+ 1058  ls
+ 1059  git add Lecture.5.ipynb
+ 1060  git commit -a -m "Lecture 5"
+ 1061  git push
+ 1062  celar
+ 1063  clear
+ 1064  man sed
+ 1065  man sed
+ 1066  which kaggle
+ 1067  git push
+ 1068  cd ~/tmp
+ 1069  mkdir ~/tmp
+ 1070  cd ~/tmp
+ 1071  git clone https://github.com/UTA-DataScience/DATA3402.Spring.2024.git
+ 1072  rm -rf DATA3402.Spring.2024
+ 1073  history
+ 1074  history -1000
+ 1075  cut -f 5,6,7,8,9 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  | bc
+ 1076  cd =
+ 1077  cd -
+ 1078  cd ../Lecture.4/datasets
+ 1079   1023  cut -f 5,6,7,8,9 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  | bc
+ 1080  cut -f 5,6,7,8,9 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  | bc
+ 1081  cut -f 5,6,7,8 -d ',' world\ all\ university\ rank\ and\ rank\ score.csv | tr -s ',' '+'  | bc
+ 1082  git commit -a -m "Fix"
+ 1083  fit push
+ 1084  git push
